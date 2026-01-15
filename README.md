@@ -24,10 +24,10 @@ Built using **CrewAI**, **OpenAI**, **Streamlit Cloud**, and **YouTube tooling**
 ![Input screen](docs/media/Input.png)
 
 ### Blog Generation
-![Agent execution](docs/media/Generation.png)
+![Agent execution](docs/media/Generated_Blog_Post.png)
 
 ### Output Download
-![Generated blog](docs/media/Output_Download.png)
+![Generated blog](docs/media/Downloadable_Output.png)
 
 ---
 
