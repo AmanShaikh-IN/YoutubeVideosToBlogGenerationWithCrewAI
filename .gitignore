@@ -3,6 +3,14 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+.streamlit/secrets.toml
+.env
+__pycache__/
+*.pyc
+*.md
+new-blog-post.md
+.DS_Store
+
 # C extensions
 *.so
 
