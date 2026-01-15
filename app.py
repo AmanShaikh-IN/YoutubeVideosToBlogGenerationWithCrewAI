@@ -4,7 +4,6 @@ from crewai_tools import YoutubeVideoSearchTool
 from agents import create_agents
 from tasks import create_tasks
 
-
 st.set_page_config(
     page_title="YouTube Videos to Blog Generator",
     layout="centered"
@@ -77,7 +76,7 @@ generate_button = st.button(
 if generate_button and yt_tool:
     with st.status("Running AI agents...", expanded=True) as status:
         try:
-            
+
             blog_researcher, blog_writer = create_agents(OPENAI_API_KEY)
             blog_researcher.tools = [yt_tool]
             blog_writer.tools = [yt_tool]
