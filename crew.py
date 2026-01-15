@@ -40,7 +40,7 @@ with st.container(border=True):
 
         channel_handle = st.text_input(
             "YouTube Channel Handle",
-            placeholder="@veritasium"
+            placeholder="veritasium"
         )
 
         topic = st.text_input(
@@ -163,4 +163,5 @@ if generate_button and yt_tool:
     )
 
 st.divider()
+
 st.caption("Powered by CrewAI and OpenAI")
