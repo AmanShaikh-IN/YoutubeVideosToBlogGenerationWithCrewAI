@@ -18,7 +18,7 @@ except KeyError:
     st.error("OPENAI_API_KEY not found. Please add it to secrets.toml.")
     st.stop()
 
-st.title("YouTube to Blog Generator")
+st.title("YouTube Videos to Blog Generator")
 st.caption(
     "Generate structured, long-form blog posts from YouTube videos using AI agents."
 )
