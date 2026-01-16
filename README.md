@@ -53,3 +53,8 @@ flowchart TD
     TOOL --> A1
     A1 --> T1 --> A2
     A2 --> T2 --> MD
+```
+
+## License
+
+MIT License
